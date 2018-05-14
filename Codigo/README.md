@@ -26,7 +26,7 @@ Posteriormente se tiene que correr el siguiente código con los parámetros dese
 
 Para correr poder obtener las tablas de resultados se corre el archivo **prueba.sh** siguiendo los pasos:
 
-1. Escribir en el archivo las **access keys** de aws para poder generar una máquina remota (para esto es necesario tener una cuenta de aws), las access keys se llenan en esta parte del script:
+1. Escribir en el archivo las **access keys** de aws para poder generar una máquina remota, además del **vpc id** y la **subnet id** (para esto es necesario tener una cuenta de aws), esta información se llena en la siguiente parte del script
 
 ```
 #Cargamos las llaves para aws
@@ -35,8 +35,8 @@ export AWS_ACCESS_KEY_ID=
 export AWS_SECRET_ACCESS_KEY=
 export AWS_DEFAULT_REGION=us-west-2
 export AWS_INSTANCE_TYPE=m4.2xlarge
-export AWS_SUBNET_ID=subnet-c321398b
-export AWS_VPC_ID=vpc-1e4bca67
+export AWS_SUBNET_ID=
+export AWS_VPC_ID=
 ```
 
 Como vemos para el proyecto se utilizó una máquina m4.2xlarge con 8 cpu's y 32GB de memoria RAM, se puede cambiar por otro tipo de máquina. Una vez que se llenaron las credenciales se ejecuta de la siguiente manera:
