@@ -24,9 +24,9 @@ Posteriormente se tiene que correr el siguiente código con los parámetros dese
 ./multip_secuencial.out dimMatA dimMatB
 ```
 
-Para correr poder obtener las tablas de resultados se corre el archivo *machine.sh* siguiendo los pasos:
+Para correr poder obtener las tablas de resultados se corre el archivo **prueba.sh** siguiendo los pasos:
 
-1. Escribir en el archivo las access keys de aws para poder generar una máquina remota (para esto es necesario tener una cuenta de aws), las access keys se llenan en esta parte del script:
+1. Escribir en el archivo las **access keys** de aws para poder generar una máquina remota (para esto es necesario tener una cuenta de aws), las access keys se llenan en esta parte del script:
 
 ```
 #Cargamos las llaves para aws
@@ -45,7 +45,7 @@ Como vemos para el proyecto se utilizó una máquina m4.2xlarge con 8 cpu's y 32
 sudo chmod +x prueba.sh
 ./prueba.sh
 ```
-Al ejecutar correrá los programas y creará los archivos de resultados. Para poder ver los resultados se creó una carpeta de Dropbox para la cual la pantalla pedirá un access token, el access token es el siguiente:
+Al ejecutar correrá los programas y creará los archivos de resultados. Para poder ver los resultados se creó una carpeta de Dropbox para la cual la pantalla pedirá un **access token**, el access token es el siguiente:
 
 ```
 Jv6JnjSKugAAAAAAAAAAe0RZ5Z6X-b4igzf9P94g_ecj8CQR4h_Cx3T2tSq2ycO8
