@@ -39,15 +39,17 @@ export AWS_SUBNET_ID=
 export AWS_VPC_ID=
 ```
 
-Como vemos para el proyecto se utilizó una máquina m4.2xlarge con 8 cpu's y 32GB de memoria RAM, se puede cambiar por otro tipo de máquina. Una vez que se llenaron las credenciales se ejecuta de la siguiente manera:
+Como vemos para el proyecto se utilizó una máquina m4.2xlarge con 8 cpu's y 32GB de memoria RAM, se puede cambiar por otro tipo de máquina.
+
+2. Una vez que se llenaron las credenciales se ejecuta de la siguiente manera:
 
 ```
 sudo chmod +x prueba.sh
 ./prueba.sh
 ```
-Al ejecutar correrá los programas y creará los archivos de resultados. Para poder ver los resultados se creó una carpeta de Dropbox para la cual la pantalla pedirá un **access token**, el access token es el siguiente:
+3. Al ejecutar correrá los programas y creará los archivos de resultados. Para poder ver los resultados se creó una carpeta de Dropbox para la cual la pantalla pedirá un **access token**, el access token es el siguiente:
 
 ```
 Jv6JnjSKugAAAAAAAAAAe0RZ5Z6X-b4igzf9P94g_ecj8CQR4h_Cx3T2tSq2ycO8
 ```
-Pedirá la confirmación del token, a lo que respondemos que si (Y+enter) y así cargará los datos a dropbox, el código fuente para poder realizar este proceso está en la siguiente liga: [Dropbox-Uploader](https://github.com/andreafabrizi/Dropbox-Uploader)
+4. Pedirá la confirmación del token, a lo que respondemos que si (Y+enter) y así cargará los datos a dropbox, el código fuente para poder realizar este proceso está en la siguiente liga: [Dropbox-Uploader](https://github.com/andreafabrizi/Dropbox-Uploader)
