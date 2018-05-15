@@ -16,7 +16,7 @@ sudo docker-machine ssh nodo gcc -Wall -fopenmp ProyectoFinal/Codigo/GeneraMatri
 sudo docker-machine ssh nodo gcc -Wall -fopenmp ProyectoFinal/Codigo/multip_secuencial.c ProyectoFinal/Codigo/funciones.c -o multip_secuencial.out
 sudo docker-machine ssh nodo gcc -Wall -fopenmp ProyectoFinal/Codigo/multip_paralela.c ProyectoFinal/Codigo/funciones.c -o multip_paralela.out
 sudo docker-machine ssh nodo bash ProyectoFinal/Codigo/loop_tiempos.sh
-#sudo docker-machine ssh nodo bash ProyectoFinal/Codigo/loop.sh
+sudo docker-machine ssh nodo bash ProyectoFinal/Codigo/loop.sh
 sudo docker-machine ssh nodo curl "https://raw.githubusercontent.com/andreafabrizi/Dropbox-Uploader/master/dropbox_uploader.sh" -o dropbox_uploader.sh
 sudo docker-machine ssh nodo chmod +x dropbox_uploader.sh
 sudo docker-machine ssh nodo cp resultados.csv resultados_$(date +%Y-%m-%d).csv
